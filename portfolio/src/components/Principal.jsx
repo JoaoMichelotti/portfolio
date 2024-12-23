@@ -6,15 +6,16 @@ const Modelo = styled.div`
     flex-direction: column;
     width: 1000px;
     align-items: center;
-    margin: 0 auto;
-    background-color: #333;  
+    margin: 0 auto; 
     padding: 30px; 
 `
 
 export default function Principal(props) {
   return (
-    <Modelo>
-        {props.children}
-    </Modelo>
+    <div style={{backgroundColor: "#333"}}>
+      <Modelo>
+          {props.children}
+      </Modelo>
+    </div>
   );
 }
