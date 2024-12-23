@@ -5,9 +5,9 @@ const Modelo = styled.ul`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #333;  
+  background-color: #4C585B;  
   padding: 20px; 
-  `
+`
 
 const Item = styled.li`
     list-style: none;

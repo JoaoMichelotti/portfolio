@@ -12,7 +12,7 @@ const Modelo = styled.div`
 
 export default function Principal(props) {
   return (
-    <div style={{backgroundColor: "#333"}}>
+    <div style={{backgroundColor: props.bg}}>
       <Modelo>
           {props.children}
       </Modelo>
