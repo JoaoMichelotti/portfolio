@@ -7,6 +7,7 @@ const Modelo = styled.div`
     align-items: center;
     padding: 20px;
     width: 500px;
+
 `
 
 const ImagemModelo = styled.div`
@@ -27,7 +28,7 @@ export default function Content(props) {
     return (
         <Modelo>
             <ImagemModelo>
-                <img src={props.src} alt={props.alt} style={{width: "200px", height: "130px"}}/>
+                <img src={props.src} alt={props.alt} style={{width: "200px", height: "130px", borderRadius: "10px"}}/>
             </ImagemModelo>
 
             <InfoDiv>

@@ -11,28 +11,22 @@ export default function App() {
     <div>
       <Navbar/>
       <Principal bg="#4C585B">
-        <ImagemModelo src="/eu.jpg" alt="Imagem de joao"/>
+        <ImagemModelo src="https://via.placeholder.com/150" alt="Imagem de exemplo"/>
         <About/>
       </Principal>
       <Principal bg="#A5BFCC">
         <Projects negocinho={true}/>
         <Projects>
-          <Content src="/MarcadorSG.PNG" alt="Imagem de exemplo" info="MarcadorSG - é um software
-           onde você consegue controlar suas marcações
-           de entrada e saída de uma empresa."/>
-          <Content src="/ToniMotosLandingPage.PNG" alt="Imagem de exemplo" info="Landing Page - Uma pagina de apresentação 
-          para a empres Toni Motos FW."/>
+          <Content src="https://via.placeholder.com/150" alt="Imagem de exemplo"/>
+          <Content src="https://via.placeholder.com/150" alt="Imagem de exemplo"/>
         </Projects>
         <Projects>
-          <Content src="/EsportsLearner.jpg" alt="Imagem de exemplo" info="Esports Learner - Um projeto
-          em PHP sobre um sistema para aprendizado em esports."/>
-
-          <Content src="/Vitrine.PNG" alt="Imagem de exemplo" info="Catálogo - Um site para
-          expor produtos de uma loja."/>
+          <Content src="https://via.placeholder.com/150" alt="Imagem de exemplo"/>
+          <Content src="https://via.placeholder.com/150" alt="Imagem de exemplo"/>
         </Projects>
       </Principal>
       <Principal bg="#F4EDD3">
-
+          
       </Principal>
     </div>
   );

@@ -5,6 +5,9 @@ const Modelo = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    background: white;  
+    border-radius: 20px;
+    margin-bottom: 20px;
 `
 
 const Titulo = styled.h1`
