@@ -9,7 +9,7 @@ const Modelo = styled.div`
 
 const Titulo = styled.h1`
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: #fff;
     margin-bottom: 20px;
 `

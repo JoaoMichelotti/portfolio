@@ -29,13 +29,13 @@ export default function Navbar() {
     <nav style={{position: "fixed", width: "100%", zIndex: 1}}> 
         <Modelo>
             <Item>
-            <a href="#about">About</a>
+            <a href="#about">Sobre</a>
             </Item>
             <Item>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Projetos</a>
             </Item>
             <Item>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Contato</a>
             </Item>
         </Modelo>
     </nav>

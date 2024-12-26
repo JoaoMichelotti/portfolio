@@ -6,31 +6,33 @@ const Modelo = styled.div`
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 500px;
 `
 
 const ImagemModelo = styled.div`
-    width: 300px;
+    width: 400px;
     border-radius: 20px;
     padding: 20px;
 `
 
-const infoDiv = styled.div`
+const InfoDiv = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    font-size: 20px;
 `
 
 export default function Content(props) {
     return (
         <Modelo>
             <ImagemModelo>
-                <img src={props.src} alt={props.alt} />
+                <img src={props.src} alt={props.alt} style={{width: "200px", height: "130px"}}/>
             </ImagemModelo>
 
-            <infoDiv>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi totam, perferendis optio id blanditiis non. Corrupti quasi ipsam, dicta earum sint repudiandae ea beatae mollitia cupiditate obcaecati porro dolores quod.</p>
-            </infoDiv>
+            <InfoDiv>
+                {props.info}
+            </InfoDiv>
         </Modelo>
     );
 }      
