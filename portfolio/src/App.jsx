@@ -26,7 +26,7 @@ export default function App() {
         </Projects>
       </Principal>
       <Principal bg="#F4EDD3">
-
+          
       </Principal>
     </div>
   );
